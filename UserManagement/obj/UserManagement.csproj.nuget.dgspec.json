@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "d:\\BELAJAR\\.NET\\ProjectManagementSystem\\UserManagement\\UserManagement.csproj": {}
+    "D:\\BELAJAR\\.NET\\ProjectManagementSystem\\UserManagement\\UserManagement.csproj": {}
   },
   "projects": {
-    "d:\\BELAJAR\\.NET\\ProjectManagementSystem\\UserManagement\\UserManagement.csproj": {
+    "D:\\BELAJAR\\.NET\\ProjectManagementSystem\\UserManagement\\UserManagement.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "d:\\BELAJAR\\.NET\\ProjectManagementSystem\\UserManagement\\UserManagement.csproj",
+        "projectUniqueName": "D:\\BELAJAR\\.NET\\ProjectManagementSystem\\UserManagement\\UserManagement.csproj",
         "projectName": "UserManagement",
-        "projectPath": "d:\\BELAJAR\\.NET\\ProjectManagementSystem\\UserManagement\\UserManagement.csproj",
+        "projectPath": "D:\\BELAJAR\\.NET\\ProjectManagementSystem\\UserManagement\\UserManagement.csproj",
         "packagesPath": "C:\\Users\\wahyu\\.nuget\\packages\\",
-        "outputPath": "d:\\BELAJAR\\.NET\\ProjectManagementSystem\\UserManagement\\obj\\",
+        "outputPath": "D:\\BELAJAR\\.NET\\ProjectManagementSystem\\UserManagement\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
