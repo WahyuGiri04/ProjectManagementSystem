@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApiGateway", "ApiGateway\ApiGateway.csproj", "{86B5083E-C85B-4FBB-823D-5D095DB2F3AB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UserManagement", "UserManagement\UserManagement.csproj", "{CFCB24B6-9B5E-4EAA-AD76-4DD969582951}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{86B5083E-C85B-4FBB-823D-5D095DB2F3AB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{86B5083E-C85B-4FBB-823D-5D095DB2F3AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{86B5083E-C85B-4FBB-823D-5D095DB2F3AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{86B5083E-C85B-4FBB-823D-5D095DB2F3AB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CFCB24B6-9B5E-4EAA-AD76-4DD969582951}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CFCB24B6-9B5E-4EAA-AD76-4DD969582951}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CFCB24B6-9B5E-4EAA-AD76-4DD969582951}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CFCB24B6-9B5E-4EAA-AD76-4DD969582951}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
