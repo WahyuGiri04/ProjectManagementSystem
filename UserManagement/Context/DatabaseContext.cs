@@ -9,7 +9,7 @@ public class DatabaseContext : DbContext
         
     }
 
-    public DbSet<Mt100Load> Mt100Load { get; set; }
+    public DbSet<Role> Role { get; set; }
 }
 
 
