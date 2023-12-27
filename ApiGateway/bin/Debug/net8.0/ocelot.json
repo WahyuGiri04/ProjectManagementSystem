@@ -1,7 +1,7 @@
 {
     "Routes": [
       {
-        "DownstreamPathTemplate": "/api/roles",
+        "DownstreamPathTemplate": "/api/{everything}",
         "DownstreamScheme": "http",
         "DownstreamHostAndPorts": [
           {
@@ -9,8 +9,7 @@
             "Port": 5001
           }
         ],
-        "UpstreamPathTemplate": "/gateway/role",
-        "UpstreamHttpMethod" : ["GET"]
+        "UpstreamPathTemplate": "/gateway/{everything}"
       }
     ],
     "GlobalConfiguration": {
