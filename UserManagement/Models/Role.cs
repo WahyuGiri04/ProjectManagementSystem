@@ -9,5 +9,5 @@ public class Role
     [Key]
     public int Id { get; set; }
     [Column("role")]
-    public required string Roles { get; set; }
+    public string? Roles { get; set; }
 }

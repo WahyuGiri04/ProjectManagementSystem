@@ -9,7 +9,7 @@ public class DatabaseContext : DbContext
         
     }
 
-    public DbSet<Role> Role { get; set; }
+    public DbSet<Role> Roles { get; set; }
 }
 
 

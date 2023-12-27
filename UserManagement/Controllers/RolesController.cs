@@ -3,21 +3,28 @@
 namespace UserManagement;
 
 [Controller]
-[Route("[controller]")]
+[Route("api/[controller]")]
 public class RolesController : ControllerBase
 {
-    private readonly DatabaseContext databaseContext;
+    private readonly RolesRepository rolesRepository;
 
-    public RolesController(DatabaseContext databaseContext){
-        this.databaseContext = databaseContext;
+    public RolesController(RolesRepository rolesRepository)
+    {
+        this.rolesRepository = rolesRepository;
     }
 
     [HttpPost]
     public IActionResult Insert(Role role)
     {
-        databaseContext.Add(role);
-        databaseContext.SaveChanges();
-        return Ok();
+        var result = rolesRepository.Insert(role);
+        return Ok(result);
+    }
+
+    [HttpGet]
+    public async Task<ActionResult<List<Role>>> GetAllRoles()
+    {
+        var roles = await rolesRepository.GetAllRolesAsync();
+        return Ok(roles);
     }
 
 }
