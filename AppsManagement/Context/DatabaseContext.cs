@@ -10,8 +10,4 @@ public class DatabaseContext : DbContext
     }
 
     public virtual DbSet<Roles> Roles { get; set; }
-
-    protected override void OnModelCreating(ModelBuilder modelBuilder){
-        modelBuilder.Entity<Roles>().ToTable("Roles");
-    }
 }
