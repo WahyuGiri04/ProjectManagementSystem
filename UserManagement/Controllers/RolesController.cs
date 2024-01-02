@@ -3,7 +3,7 @@
 namespace UserManagement;
 
 [Controller]
-[Route("api/[controller]")]
+[Route("[controller]")]
 public class RolesController : ControllerBase
 {
     private readonly RolesRepository rolesRepository;

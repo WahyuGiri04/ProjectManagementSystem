@@ -11,6 +11,6 @@
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="8.0.0"/>
     <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="8.0.0"/>
     <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="8.0.0"/>
-    <PackageReference Include="CsvHelper.Excel.Core" Version="27.2.1"/>
+    
   </ItemGroup>
 </Project>

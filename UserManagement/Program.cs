@@ -1,5 +1,4 @@
 using Microsoft.EntityFrameworkCore;
-using Microsoft.EntityFrameworkCore.Storage;
 using UserManagement;
 
 var builder = WebApplication.CreateBuilder(args);

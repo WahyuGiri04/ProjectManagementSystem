@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApiGateway", "ApiGateway\Ap
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UserManagement", "UserManagement\UserManagement.csproj", "{CFCB24B6-9B5E-4EAA-AD76-4DD969582951}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppsManagement", "Appsmanagement\AppsManagement.csproj", "{8AAB098F-E82F-446E-814C-84755042D74E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -24,5 +26,9 @@ Global
 		{CFCB24B6-9B5E-4EAA-AD76-4DD969582951}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CFCB24B6-9B5E-4EAA-AD76-4DD969582951}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CFCB24B6-9B5E-4EAA-AD76-4DD969582951}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8AAB098F-E82F-446E-814C-84755042D74E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8AAB098F-E82F-446E-814C-84755042D74E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8AAB098F-E82F-446E-814C-84755042D74E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8AAB098F-E82F-446E-814C-84755042D74E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
