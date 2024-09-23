@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "XLh5kc3c0xXQc1tdOG77/Rln+tvEp8i9WOVuEJn0av7ZLTa2p94Ase86OPAmkrdYG1tzerVCsZvtUTPnbYUQkg==",
+  "dgSpecHash": "+0VWM5Pt7Ls=",
   "success": true,
-  "projectFilePath": "D:\\BELAJAR\\.NET\\ProjectManagementSystem\\AppsManagement\\AppsManagement.csproj",
+  "projectFilePath": "D:\\BELAJAR\\.NET\\ProjectManagementSystem\\Appsmanagement\\AppsManagement.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\wahyu\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",
     "C:\\Users\\wahyu\\.nuget\\packages\\azure.identity\\1.7.0\\azure.identity.1.7.0.nupkg.sha512",
